@@ -1,3 +1,24 @@
 {
     "files.eol": "\n"
+    "fileHeaderComment.parameter":{
+        "*":{
+            "company": "Quantico Corproation"
+        }
+    },
+    "fileHeaderComment.template": {
+        "*":[
+            "${commentbegin}",
+            "${commentprefix} ${filename} - insert short description of file",
+            "${commentprefix}",
+            "${commentprefix} Copyright (c) ${year} ${company}",
+            "${commentprefix}",
+            "${commentprefix} License: See LICENSE file for details.",
+            "${commentprefix}",
+            "${commentprefix} Author: ${company}",
+            "${commentprefix} Date Created: ${month} ${day} ${year}",
+            "${commentprefix}",
+            "${commentprefix} Description - Insert long description of the file's purpose",
+            "${commentend}"
+        ]        
+    }
 }

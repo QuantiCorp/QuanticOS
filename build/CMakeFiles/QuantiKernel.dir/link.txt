@@ -1,0 +1,2 @@
+/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-ar qc libQuantiKernel.a CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-ranlib libQuantiKernel.a

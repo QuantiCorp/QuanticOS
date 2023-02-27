@@ -1,0 +1,22 @@
+The target system is: Generic -  - i686
+The host system is: Linux - 5.10.16.3-microsoft-standard-WSL2 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc 
+Build flags: -Wall;-Wextra;-D__is_kernel;-Iinclude;-ffreestanding;--sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot;-isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/mnt/c/Projects/TSS/QuanticOS/build/CMakeFiles/3.20.1/CompilerIdC/CMakeCCompilerId.o"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+GNU assembler (GNU Binutils) 2.40.50.20230214
+Copyright (C) 2023 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `i686-elf'.

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/boot.S
+
+/mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/crti.S
+
