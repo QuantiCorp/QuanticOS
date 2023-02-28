@@ -1,0 +1,206 @@
+Archive member included to satisfy reference by file (symbol)
+
+libQuantiClib.a(printf.c.obj)
+                              CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj (printf)
+libQuantiClib.a(putchar.c.obj)
+                              libQuantiClib.a(printf.c.obj) (putchar)
+libQuantiClib.a(strlen.c.obj)
+                              CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj (strlen)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+LOAD CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+LOAD CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+LOAD CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+LOAD libQuantiKernel.a
+LOAD libQuantiClib.a
+LOAD /mnt/c/Projects/TSS/tools/cross/lib/gcc/i686-elf/13.0.1/libgcc.a
+                0x00100000                        . = 0x100000
+
+.text           0x00100000      0x56b
+ *(.multiboot)
+ .multiboot     0x00100000        0xc CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ *(.text)
+ *fill*         0x0010000c        0x4 
+ .text          0x00100010      0x299 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+                0x00100010                terminal_initialize
+                0x001000a0                terminal_setcolor
+                0x001000b0                terminal_putentryat
+                0x001000e0                terminal_putchar
+                0x00100150                terminal_write
+                0x00100200                terminal_writestring
+ .text          0x001002a9       0x13 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+                0x001002a9                _start
+ .text          0x001002bc        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ *fill*         0x001002bc        0x4 
+ .text          0x001002c0       0x1d CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+                0x001002c0                kernel_main
+ *fill*         0x001002dd        0x3 
+ .text          0x001002e0      0x249 libQuantiClib.a(printf.c.obj)
+                0x001002e0                printf
+ *fill*         0x00100529        0x7 
+ .text          0x00100530       0x1f libQuantiClib.a(putchar.c.obj)
+                0x00100530                putchar
+ *fill*         0x0010054f        0x1 
+ .text          0x00100550       0x1b libQuantiClib.a(strlen.c.obj)
+                0x00100550                strlen
+
+.iplt           0x0010056b        0x0
+ .iplt          0x0010056b        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+
+.init           0x0010056b        0x3
+ .init          0x0010056b        0x3 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+                0x0010056b                _init
+
+.fini           0x0010056e        0x3
+ .fini          0x0010056e        0x3 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+                0x0010056e                _fini
+
+.rel.dyn        0x00100574        0x0
+ .rel.got       0x00100574        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .rel.iplt      0x00100574        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+
+.rodata
+ *(.rodata)
+
+.rodata.str1.4  0x00100574       0x24
+ .rodata.str1.4
+                0x00100574       0x24 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+
+.data           0x00101000        0x0
+ *(.data)
+ .data          0x00101000        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .data          0x00101000        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .data          0x00101000        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .data          0x00101000        0x0 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .data          0x00101000        0x0 libQuantiClib.a(printf.c.obj)
+ .data          0x00101000        0x0 libQuantiClib.a(putchar.c.obj)
+ .data          0x00101000        0x0 libQuantiClib.a(strlen.c.obj)
+
+.got            0x00100598        0x0
+ .got           0x00100598        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+
+.got.plt        0x00100598        0x0
+ .got.plt       0x00100598        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+
+.igot.plt       0x00100598        0x0
+ .igot.plt      0x00100598        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+
+.bss            0x00101000     0x4010
+ *(COMMON)
+ *(.bss)
+ .bss           0x00101000       0x10 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .bss           0x00101010     0x4000 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .bss           0x00105010        0x0 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .bss           0x00105010        0x0 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .bss           0x00105010        0x0 libQuantiClib.a(printf.c.obj)
+ .bss           0x00105010        0x0 libQuantiClib.a(putchar.c.obj)
+ .bss           0x00105010        0x0 libQuantiClib.a(strlen.c.obj)
+OUTPUT(QuantiKernel.kernel elf32-i386)
+
+.debug_info     0x00000000      0xb75
+ .debug_info    0x00000000      0x62b CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_info    0x0000062b       0x35 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .debug_info    0x00000660       0x22 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .debug_info    0x00000682       0x97 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_info    0x00000719      0x313 libQuantiClib.a(printf.c.obj)
+ .debug_info    0x00000a2c       0xac libQuantiClib.a(putchar.c.obj)
+ .debug_info    0x00000ad8       0x9d libQuantiClib.a(strlen.c.obj)
+
+.debug_abbrev   0x00000000      0x5d3
+ .debug_abbrev  0x00000000      0x20d CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_abbrev  0x0000020d       0x21 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .debug_abbrev  0x0000022e       0x12 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .debug_abbrev  0x00000240       0x99 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_abbrev  0x000002d9      0x1c1 libQuantiClib.a(printf.c.obj)
+ .debug_abbrev  0x0000049a       0xab libQuantiClib.a(putchar.c.obj)
+ .debug_abbrev  0x00000545       0x8e libQuantiClib.a(strlen.c.obj)
+
+.debug_loclists
+                0x00000000      0x549
+ .debug_loclists
+                0x00000000      0x2b9 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_loclists
+                0x000002b9      0x264 libQuantiClib.a(printf.c.obj)
+ .debug_loclists
+                0x0000051d       0x2c libQuantiClib.a(strlen.c.obj)
+
+.debug_aranges  0x00000000       0xe8
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_aranges
+                0x00000020       0x20 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .debug_aranges
+                0x00000040       0x28 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .debug_aranges
+                0x00000068       0x20 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_aranges
+                0x00000088       0x20 libQuantiClib.a(printf.c.obj)
+ .debug_aranges
+                0x000000a8       0x20 libQuantiClib.a(putchar.c.obj)
+ .debug_aranges
+                0x000000c8       0x20 libQuantiClib.a(strlen.c.obj)
+
+.debug_rnglists
+                0x00000000      0x155
+ .debug_rnglists
+                0x00000000       0xd7 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_rnglists
+                0x000000d7       0x7e libQuantiClib.a(printf.c.obj)
+
+.debug_line     0x00000000      0x91c
+ .debug_line    0x00000000      0x3e8 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_line    0x000003e8       0x67 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .debug_line    0x0000044f       0x71 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .debug_line    0x000004c0       0x6b CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_line    0x0000052b      0x302 libQuantiClib.a(printf.c.obj)
+ .debug_line    0x0000082d       0x78 libQuantiClib.a(putchar.c.obj)
+ .debug_line    0x000008a5       0x77 libQuantiClib.a(strlen.c.obj)
+
+.debug_str      0x00000000      0x42b
+ .debug_str     0x00000000      0x42b CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+                                0x33f (size before relaxing)
+ .debug_str     0x0000042b       0x70 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj
+ .debug_str     0x0000042b       0x69 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj
+ .debug_str     0x0000042b       0xb0 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_str     0x0000042b      0x133 libQuantiClib.a(printf.c.obj)
+ .debug_str     0x0000042b       0xa7 libQuantiClib.a(putchar.c.obj)
+ .debug_str     0x0000042b       0x97 libQuantiClib.a(strlen.c.obj)
+
+.debug_line_str
+                0x00000000      0x2c7
+ .debug_line_str
+                0x00000000      0x2c7 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+                                0x155 (size before relaxing)
+ .debug_line_str
+                0x000002c7      0x140 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_line_str
+                0x000002c7      0x150 libQuantiClib.a(printf.c.obj)
+ .debug_line_str
+                0x000002c7      0x146 libQuantiClib.a(putchar.c.obj)
+ .debug_line_str
+                0x000002c7      0x100 libQuantiClib.a(strlen.c.obj)
+
+.comment        0x00000000       0x2a
+ .comment       0x00000000       0x2a CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+                                 0x2b (size before relaxing)
+ .comment       0x0000002a       0x2b CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .comment       0x0000002a       0x2b libQuantiClib.a(printf.c.obj)
+ .comment       0x0000002a       0x2b libQuantiClib.a(putchar.c.obj)
+ .comment       0x0000002a       0x2b libQuantiClib.a(strlen.c.obj)
+
+.debug_frame    0x00000000      0x1fc
+ .debug_frame   0x00000000      0x108 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj
+ .debug_frame   0x00000108       0x34 CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj
+ .debug_frame   0x0000013c       0x54 libQuantiClib.a(printf.c.obj)
+ .debug_frame   0x00000190       0x38 libQuantiClib.a(putchar.c.obj)
+ .debug_frame   0x000001c8       0x34 libQuantiClib.a(strlen.c.obj)
+
+.debug_ranges   0x00000000       0x20
+ .debug_ranges  0x00000000       0x20 CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj

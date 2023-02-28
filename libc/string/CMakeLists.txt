@@ -1,0 +1,5 @@
+target_sources(QuantiClib PRIVATE memcmp.c)
+target_sources(QuantiClib PRIVATE memcpy.c)
+target_sources(QuantiClib PRIVATE memmove.c)
+target_sources(QuantiClib PRIVATE memset.c)
+target_sources(QuantiClib PRIVATE strlen.c)

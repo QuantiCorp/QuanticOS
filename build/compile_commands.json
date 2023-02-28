@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/stdio/printf.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/stdio/printf.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/stdio/printf.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/stdio/putchar.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/stdio/putchar.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/stdio/putchar.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/stdio/puts.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/stdio/puts.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/stdio/puts.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/stdlib/abort.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/stdlib/abort.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/stdlib/abort.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/string/memcmp.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/string/memcmp.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/string/memcmp.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/string/memcpy.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/string/memcpy.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/string/memcpy.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/string/memmove.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/string/memmove.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/string/memmove.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/string/memset.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/string/memset.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/string/memset.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -ffreestanding -Wall -Wextra -D__is_libQuantiClib -D__is_libc -Iinclude -std=gnu99 -o CMakeFiles/QuantiClib.dir/libc/string/strlen.c.obj -c /mnt/c/Projects/TSS/QuanticOS/libc/string/strlen.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/libc/string/strlen.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -std=gnu99 -o CMakeFiles/QuantiKernel.dir/kernel/arch/i386/tty.c.obj -c /mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/tty.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/tty.c"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-as  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -O3 -g -o CMakeFiles/QuantiKernel.dir/kernel/arch/i386/boot.S.obj -c /mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/boot.S",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/boot.S"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-as  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -O3 -g -o CMakeFiles/QuantiKernel.dir/kernel/arch/i386/crti.S.obj -c /mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/crti.S",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/kernel/arch/i386/crti.S"
+},
+{
+  "directory": "/mnt/c/Projects/TSS/QuanticOS/build",
+  "command": "/mnt/c/Projects/TSS/tools/cross/bin/i686-elf-gcc  -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/kernel -I/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include/sys -Wall -Wextra -D__is_kernel -Iinclude -ffreestanding --sysroot=/mnt/c/Projects/TSS/QuanticOS/build/sysroot -isystem=/mnt/c/Projects/TSS/QuanticOS/build/sysroot/usr/include -O3 -g -std=gnu99 -o CMakeFiles/QuantiKernel.dir/kernel/kernel/kernel.c.obj -c /mnt/c/Projects/TSS/QuanticOS/kernel/kernel/kernel.c",
+  "file": "/mnt/c/Projects/TSS/QuanticOS/kernel/kernel/kernel.c"
+}
+]
